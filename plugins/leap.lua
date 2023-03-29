@@ -4,11 +4,11 @@ return {
 	config = function () 
 	  local leap = require("leap")
 		leap.setup({
-		   case_sensitive = false,
-		   safe_labels = {},
-		   max_phase_one_targets = 0,
-		   max_highlighted_traversal_targets = 10,
-		 })
+		  case_sensitive = false,
+		  safe_labels = {},
+		  max_phase_one_targets = 0,
+		  max_highlighted_traversal_targets = 10,
+		})
 
 		leap.set_default_keymaps(true)
 		local function leap_current_window()
