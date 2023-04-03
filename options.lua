@@ -10,6 +10,9 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     mouse="", -- 禁用鼠标功能
+    fileencodings="utf-8,ucs-bom,bg18030,gbk,gb2313,cp936",
+    termencoding="utf-8",
+    encoding="utf-8",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

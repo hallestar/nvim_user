@@ -27,11 +27,11 @@ return {
  	  })
 
  	 	-- 跳转之后回正光标到窗口正中
- 	 	vim.api.nvim_create_autocmd("User", {
-   	 	pattern = "LeapLeave",
-   	 	callback = function()
-     	 	vim.cmd("normal zz")
-   	 	end,
- 	 	})
+ 	 	-- vim.api.nvim_create_autocmd("User", {
+   	--  	pattern = "LeapLeave",
+   	--  	callback = function()
+    --  	 	vim.cmd("normal zz")
+   	--  	end,
+ 	 	-- })
 	end,
 }
