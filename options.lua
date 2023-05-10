@@ -14,6 +14,7 @@ return {
     termencoding = "utf-8",
     encoding = "utf-8",
     cscopeprg = 'gtags-cscope',
+    colorcolumn="80",
   },
   g = {
     mapleader = " ",                                                                                      -- sets vim.g.mapleader

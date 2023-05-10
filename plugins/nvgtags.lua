@@ -1,8 +1,7 @@
 local telescope = require('telescope')
 
 return {
-  -- "myplugin.nvim",
-  dir = "~/projects/myplugin.nvim",
+  dir = "~/projects/nvgtags.nvim",
   dependencies = "nvim-telescope/telescope.nvim",
   opts = function()
     return {
@@ -12,7 +11,7 @@ return {
     }
   end,
   config = function()
-    telescope.load_extension('myplugin')
+    telescope.load_extension('nvgtags')
     -- telescope.setup {
     --   defaults = {
     --     path_display = {
@@ -23,7 +22,7 @@ return {
     -- }
     -- require("telescope").setup{
     --   extensions = {
-    --     myplugin = {
+    --     nvgtags = {
     --     }
     --   }
     -- }
