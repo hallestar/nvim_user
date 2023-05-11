@@ -25,6 +25,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     ["<leader>fx"] = { "<cmd>Telescope nvgtags find_definition<cr>", desc = "Find definition" },
     ["<leader>fz"] = { "<cmd>Telescope nvgtags find_definition_under_cursor<cr>", desc = "Find definition under corsur" },
+    ["<leader>fp"] = { "<cmd>Telescope nvgtags find_reference<cr>", desc = "Find reference" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<S-Insert>"] = { "<C-R>+", desc = "shift insert " },  -- paste
