@@ -15,6 +15,12 @@ return {
     encoding = "utf-8",
     cscopeprg = 'gtags-cscope',
     colorcolumn="80",
+    autoindent = true,
+    cindent = true,
+    tabstop = 4,
+    softtabstop = 4,
+    shiftwidth = 4,
+    expandtab = true,
   },
   g = {
     mapleader = " ",                                                                                      -- sets vim.g.mapleader
@@ -39,6 +45,8 @@ return {
     DEBUG_PLENARY = "trace",
   },
 }
+
+-- autocmd FileType python set tabstop=4 | set expandtab | set autoindent 
 -- If you need more control, you can use the function()...end notation
 -- return function(local_vim)
 --   local_vim.opt.relativenumber = true
